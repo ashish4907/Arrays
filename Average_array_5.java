@@ -25,3 +25,25 @@ class test5{
         return sum/arr.length;
     }
 }
+
+
+
+
+
+  if(index <0 || index > arr.length){
+        System.out.println("Index out of Range");
+        }
+    int[] y = new int[arr.length+1];
+    for(int i=0;i<arr.length;i++){
+        if(i<index){
+            y[i] = arr[i];
+        }
+        else{
+            y[i+1] = arr[i];
+        }
+        return y;
+    }
+
+
+    }
+}
