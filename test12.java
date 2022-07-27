@@ -20,6 +20,7 @@ class test12{
         }
         else{
             System.out.println("Both arrays are not equal");
+            System.out.println("hello");
         }
 
     
